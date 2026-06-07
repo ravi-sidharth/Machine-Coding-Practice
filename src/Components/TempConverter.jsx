@@ -60,7 +60,7 @@ function TempConverter() {
         <input
           id="fahrenheit"
           type="number"
-          defaultValue={formatValue(fahrenheit)}
+          value={formatValue(fahrenheit)}
           onChange={(event) => {
             handleFahrenheitToCelsius(event.target.value);
           }}
